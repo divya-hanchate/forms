@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  Hello world
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+  <fieldset>
+    <legend>Student Details</legend>
+  <form>
+    <table width=100% border=1>
+      <tr>
+<label for=name><td>Name</td></label>
+    <td><input type="text" id="name" name="name"></td>
+      </tr>
+      <tr>
+    <label for=pemail><td>Email</td></label><br>
+    <td><input type="email" id="pemail" name="pemail"></td>
+      </tr>
+      <tr>
+    <label for="pphone"><td>Phone No.</td></label>
+    <td><input type="tel" id="pphone" name="pphone"></td>
+      </tr>
+      <tr>
+    <label for=ppassword><td>Password</td></label>
+    <td><input type="password" id="ppassword" name="ppassword"></td>
+      </tr>
+    <tr><p><td>Gender</td></p>
+ <td><input type="radio" id="female" name="mygender" value="Female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="male" name="mygender" value="Male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="others" name="mygender" value="Others">
+  <label for="others">Others</label></br></td></tr>
+    <tr>
+    <label for="adress"><td>Address</td></label><br>
+    <td><textarea name="message" rows=3 vols=10></textarea><br> </td>  </tr>
+   <tr><label for="hobbies"><td>Hobbies</td></label><br>
+    <td><input type="checkbox" id="Dance" name="Dance" value="Dance">
+  <label for="Dance"> I like Dancing</label><br>
+  <input type="checkbox" id="paint" name="paint" value="paint">
+  <label for="paint"> I like painting</label><br>
+  <input type="checkbox" id="singing" name="singing" value="singing">
+  <label for="singing"> I like singing</label></br>
+    </br></td>
+      </tr>
+      <tr>
+    <label for="college"><td>College:</td></label><br>
+<td><select id="collge" name="college">
+  <option value="KLS Gogte institute of technology">KLS Gogte institute of technology</option>
+  <option value="M S Shesgiri">M S Shesgiri</option>
+  <option value="Jain college">Jain collge</option>
+</select><br></td></tr>
+      <tr>
+    <label for="resume"><td>Resume</td></label></br>
+    <td><input type="file" id="file" name="file"></br></td></tr>
+      <tr>
+   <td><center> <label for="department">Department</label></center></td>
+    <td><center><select id="department" name="department">
+  <option value="cs">CS</option>
+  <option value="ec">EC</option>
+  <option value="ee">EEE</option>
+  <option value="me">ME</option>
+  <option value="ae">AE</option>
+  <option value="cv">CV</option>
+</select></center></td>
+      </tr>
+      <tr>
+    <td><center><input type="submit"></center></td>
+    <td><center><input type="reset"></center></td>
+      </tr>
+    </table>
+  </form>
+  </fieldset>
+</body>
+
+</html>
